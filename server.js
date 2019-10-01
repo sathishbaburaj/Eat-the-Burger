@@ -6,7 +6,7 @@ var PORT = process.env.PORT || 4000;
 
 app.use(express.static("public"));
 
-app.use(bodyParser.urlencoded({extended:true}));
+app.use(bodyParser.urlencoded({extended:false}));
 app.use(bodyParser.json());
 
 app.engine("handlebars",exphbs({defaultLayout:"main"}));

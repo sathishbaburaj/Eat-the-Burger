@@ -1,23 +1,56 @@
-.jumbotron {
-    background-image: url("../img/burgerpic2.png");
-    background-repeat: no-repeat;
-    background-position: right;
-    background-color: #000000;
-    color: #ffffff;
-    margin-top: 3%;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  background-color: beige;
+  background-image: url("/public/assets/img/sonic_mushroom_beef_burger.jpg.653x0_q80_crop-smart.jpg")
+}
+
+.flex-container {
+  display: -webkit-flex;
+  display: flex;  
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  text-align: center;
+}
+
+.flex-container > * {
+  padding: 15px;
+  -webkit-flex: 1 100%;
+  flex: 1 100%;
+}
+
+.main {
+  text-align: center;
+}
+
+@media all and (min-width: 768px) {
+  .main1 {-webkit-flex:5 0px;flex:5 0px;-webkit-order:1;order:1;}
+  .main2 {-webkit-flex:5 0px;flex:5 0px;-webkit-order:1;order:1;}
+  .footer {-webkit-order:2;order:2;}
+}
+
+li {
+    padding: 3px;
+    margin: 3px;
+    background: #e9e8e6;
+    list-style: none;
   }
-  #newburger {
-    color: #5c5c5c;
+  
+  .label {
+    font-weight: bold;
   }
-  #leftside {
-    background-color: #5c5c5c;
-    color: white;
-    text-align: center;
-    font-size: 1.3em;
+  
+  .create-update-form {
+    padding: 5px;
+    margin: 5px;
+    background: aqua;
   }
-  #rightside {
-    background-color: #e49322;
-    color: white;
-    text-align: center;
-    font-size: 1.3em;
+  
+  .form-group {
+    margin-bottom: 5px;
   }
