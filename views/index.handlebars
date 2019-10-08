@@ -1,9 +1,12 @@
-<div class="flex-container">
-    <header>
-        <h2>Eat-Da-Burger</h2>
-    </header>
+<div class ="container">
+ <div class="jumbotron text-center" class="row">
+    <div class="col-sm-12">
+  <h1>Eat-the-Burger</h1>
+  </div>
+</div>
 
-    <section class="main1">
+    <div class="row">
+        <div class="col-sm-6">
         {{#each burgers}} {{#unless this.devoured}}
         <ul>
             <li>
@@ -14,8 +17,9 @@
             </li>
         </ul>
         {{/unless}} {{/each}} 
-    </section>
-    <section class="main2">
+    </div>
+
+           <div class="col-sm-6">
         {{#each burgers}} {{#if this.devoured}}
         <ul>
             <li>
@@ -25,14 +29,20 @@
             </li>
         </ul>
         {{/if}} {{/each}}
-    </section>
-    <footer>
-        <form class="create-form">
+    </div>
+    </div>    
+ 
+    
+    <div class="row" class="border border-primary">
+        <div class="col-sm-12">  
+            <form class="create-form">     
             <div class="form-group">
                 <label for="burger">Burger Name:</label>
                 <input type="text" id="burger" name="name">
             </div>
-            <button type="submit">Add Burger</button>
-        </form>
-    </footer>
-</div>
+            <button type="submit" class="btn btn-primary">Add Burger</button>
+        </form> 
+        </div>
+        </div>
+        </div>
+    
