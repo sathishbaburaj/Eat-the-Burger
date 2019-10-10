@@ -44,7 +44,8 @@ The link below will give you direct access to Eat the burger app using your brow
 ```
  * node server.js
  ```
-![](public/assets/img/screen-shot-app.jpg)
+ 
+![](public/assets/img/screen-shot-app.JPG)
 
 
 
