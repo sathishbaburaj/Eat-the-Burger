@@ -28,22 +28,23 @@ The link below will give you direct access to Eat the burger app using your brow
 ### How to run the App
 
 1. clone my repo using the command line
-
+```
  * git clone https://github.com/sathishbaburaj/Eat-the-Burger.git
-
+```
 
 2. Change the directory to the cloned repo folder.
-
+```
 * cd Eat-the-Burger
-
+```
 3. Install the required npm packages
-
+```
  * npm install
-
+```
  4. Start the application server using the command line  below
-
+```
  * node server.js
-![](app/public/assets/img/screen-shot-app.jpg)
+ ```
+![](public/assets/img/screen-shot-app.jpg)
 
 
 
