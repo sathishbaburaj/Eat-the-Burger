@@ -1,0 +1,14 @@
+.jumbotron{
+    background-color: palegreen;
+    color: brown;
+}
+
+body{
+    background-image: url("/assets/img/seamless-pattern-of-burgers-background-for-fast-vector-18919334.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 1.2rem;
+
+}
+
