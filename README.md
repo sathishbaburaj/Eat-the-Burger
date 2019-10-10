@@ -2,6 +2,8 @@
 ### Overview
 Eat the Burger app is a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Be sure to follow the MVC design pattern; use Node and MySQL to query and route data in your app, and Handlebars to generate your HTML.
 
+![](public/assets/img/screen-shot-app.JPG)
+
 ### Application Heroku Link
 The link below will give you direct access to Eat the burger app using your browser via the Heroku web service.
 
@@ -45,7 +47,7 @@ The link below will give you direct access to Eat the burger app using your brow
  * node server.js
  ```
  
-![](public/assets/img/screen-shot-app.JPG)
+
 
 
 
